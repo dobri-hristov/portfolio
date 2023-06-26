@@ -97,6 +97,11 @@ let data = {
       imgUrl: "images/projects/myworld.png",
       projectUrl: "https://dobri-hristov.github.io/myworld/",
     },
+    {
+      name: "Gotham",
+      imgUrl: "images/projects/gotham.png",
+      projectUrl: "https://dobri-hristov.github.io/Gotham/",
+    },
   ],
 };
 

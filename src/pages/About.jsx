@@ -2,7 +2,7 @@ import React from "react";
 
 const About = ({ data }) => {
   return (
-    <section id="about">
+    <section id="about" className="bg-dark">
       <div className="row">
         <div className="three columns">
           <img className="profile-pic" src="images/profilepic.jpg" alt="" />

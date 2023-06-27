@@ -2,14 +2,13 @@ import React from "react";
 
 const Resume = ({ data }) => {
   return (
-    <section id="resume">
+    <section id="resume" className="bg-dark">
       <div className="row education">
         <div className="three columns header-col">
           <h1>
             <span>Education</span>
           </h1>
         </div>
-
         <div className="nine columns main-col">
           {data.education &&
             data.education.map((item, i) => {
@@ -37,7 +36,6 @@ const Resume = ({ data }) => {
             <span>Work</span>
           </h1>
         </div>
-
         <div className="nine columns main-col">
           {data.work &&
             data.work.map((item, i) => {
@@ -59,17 +57,14 @@ const Resume = ({ data }) => {
             })}
         </div>
       </div>
-
       <div className="row skill">
         <div className="three columns header-col">
           <h1>
             <span>Skills</span>
           </h1>
         </div>
-
         <div className="nine columns main-col">
           <p>{data.skillsDescription}</p>
-
           <div className="bars">
             <ul className="skills">
               {data.skills &&
@@ -79,7 +74,7 @@ const Resume = ({ data }) => {
                       <span
                         className={`bar-expand ${item.skillname.toLowerCase()}`}
                       ></span>
-                      <em>{item.skillname}</em>
+                      <em style={{ color: "#E1D9D1" }}>{item.skillname}</em>
                     </li>
                   );
                 })}

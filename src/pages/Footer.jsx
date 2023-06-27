@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = ({ data }) => {
   return (
-    <footer>
+    <footer className="bg-dark">
       <div className="row">
         <div className="twelve columns">
           <ul className="social-links">

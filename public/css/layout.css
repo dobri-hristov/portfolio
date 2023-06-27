@@ -557,6 +557,9 @@ ul#nav li.current a {
   -moz-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
+
+  background: url(../images/overlay-bg.png) repeat;
+  box-shadow: 0px 0px 10px 1px rgba(225, 217, 209, 0.6);
 }
 .portfolio-item .item-wrap .link-icon {
   display: block;

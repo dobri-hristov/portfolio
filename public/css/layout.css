@@ -55,6 +55,7 @@ header:before {
   vertical-align: middle;
   height: 100%;
 }
+
 header .banner {
   display: inline-block;
   vertical-align: middle;
@@ -251,6 +252,10 @@ ul#nav li.current a {
 }
 #about .main-col {
   padding-right: 5%;
+}
+#about .main-col p,
+#address span {
+  font-weight: 500;
 }
 #about .download .button {
   margin-top: 6px;

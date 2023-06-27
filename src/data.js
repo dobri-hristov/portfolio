@@ -2,7 +2,7 @@ let data = {
   name: "Dobri Hristov",
   role: "Frontend Developer",
   roleDescription:
-    "who designs, codes beautifully simple things and does everything with love and passion",
+    "who is passionate about creating great user experiences, have a strong understanding of usability and accessibility standards and does everything with love and passion",
   socialLinks: [
     {
       name: "linkedin",

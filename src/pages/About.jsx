@@ -5,7 +5,11 @@ const About = ({ data }) => {
     <section id="about" className="bg-dark">
       <div className="row">
         <div className="three columns">
-          <img className="profile-pic" src="images/profilepic.jpg" alt="" />
+          <img
+            className="profile-pic"
+            src="images/profilepic.jpg"
+            alt="my pic"
+          />
         </div>
         <div className="nine columns main-col">
           <h2>About Me</h2>

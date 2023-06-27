@@ -23,7 +23,7 @@ const Portfolio = ({ data }) => {
                         />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
-                            <h5>{item.name}</h5>
+                            <h5 style={{ color: "#E1D9D1" }}>{item.name}</h5>
                           </div>
                         </div>
                       </a>

@@ -8,22 +8,38 @@ const Portfolio = ({ data }) => {
           <h1>Check Out Some of My Works</h1>
           <div
             id="portfolio-wrapper"
-            className="bgrid-thirds s-bgrid-thirds cf"
+            className="bgrid-thirds s-bgrid-halves cf"
           >
             {data.portfolio &&
               data.portfolio.map((item) => {
                 return (
-                  <div className="columns portfolio-item" key={item.name}>
-                    <div className="item-wrap">
-                      <a href={item.projectUrl}>
-                        <img
-                          src={item.imgUrl}
-                          className="item-img"
-                          alt="project img"
-                        />
+                  <div
+                    className="columns portfolio-item flip-card"
+                    key={item.name}
+                  >
+                    <div className="item-wrap flip-card-inner project-desktop">
+                      <img src={item.imgUrl} alt="project img" />
+                      <div className="overlay flip-card-back">
+                        <div className="portfolio-item-meta">
+                          <h4 style={{ color: "#E1D9D1" }}>{item.name}</h4>
+                        </div>
+                        <div className="btn-group">
+                          <a href={item.projectUrlCode}>
+                            <button className="project-btn">Code</button>
+                          </a>
+                          <a href={item.projectUrlLive}>
+                            <button className="project-btn">Live</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="item-wrap project-mobile">
+                      <a href={item.projectUrlLive}>
+                        <img src={item.imgUrl} alt="project img" />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
-                            <h5 style={{ color: "#E1D9D1" }}>{item.name}</h5>
+                            <h4 style={{ color: "#E1D9D1" }}>{item.name}</h4>
                           </div>
                         </div>
                       </a>

@@ -80,27 +80,32 @@ let data = {
     {
       name: "Smart Light Bulbs",
       imgUrl: "images/projects/smartlightbulbs.png",
-      projectUrl: "https://dobri-hristov.github.io/SmartLightBulbs/",
+      projectUrlCode: "https://github.com/dobri-hristov/SmartLightBulbs",
+      projectUrlLive: "https://dobri-hristov.github.io/SmartLightBulbs/",
     },
     {
       name: "Sofia Football",
       imgUrl: "images/projects/sofiafootball.png",
-      projectUrl: "https://dobri-hristov.github.io/sofiafootball/",
+      projectUrlCode: "https://github.com/dobri-hristov/sofiafootball",
+      projectUrlLive: "https://dobri-hristov.github.io/sofiafootball/",
     },
     {
       name: "Top Massage",
       imgUrl: "images/projects/topmassage.png",
-      projectUrl: "https://dobri-hristov.github.io/topmassage/#/",
+      projectUrlCode: "https://github.com/dobri-hristov/topmassage",
+      projectUrlLive: "https://dobri-hristov.github.io/topmassage/#/",
     },
     {
       name: "My World",
       imgUrl: "images/projects/myworld.png",
-      projectUrl: "https://dobri-hristov.github.io/myworld/",
+      projectUrlCode: "https://github.com/dobri-hristov/myworld",
+      projectUrlLive: "https://dobri-hristov.github.io/myworld/",
     },
     {
       name: "Gotham",
       imgUrl: "images/projects/gotham.png",
-      projectUrl: "https://dobri-hristov.github.io/Gotham/",
+      projectUrlCode: "https://github.com/dobri-hristov/Gotham",
+      projectUrlLive: "https://dobri-hristov.github.io/Gotham/",
     },
   ],
 };

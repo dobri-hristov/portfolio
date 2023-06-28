@@ -1,3 +1,9 @@
+import { IoLogoJavascript } from "react-icons/io";
+import { SiRedux } from "react-icons/si";
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { FaReact } from "react-icons/fa";
+
 let data = {
   name: "Dobri Hristov",
   role: "Frontend Developer",
@@ -62,18 +68,23 @@ let data = {
   skills: [
     {
       skillname: "JavaScript",
+      icon: <IoLogoJavascript />,
     },
     {
       skillname: "Reactjs",
+      icon: <FaReact />,
     },
     {
       skillname: "HTML5",
+      icon: <AiFillHtml5 />,
     },
     {
       skillname: "CSS",
+      icon: <DiCss3 />,
     },
     {
       skillname: "Redux",
+      icon: <SiRedux />,
     },
   ],
   portfolio: [

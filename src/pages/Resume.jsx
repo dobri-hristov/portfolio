@@ -73,7 +73,9 @@ const Resume = ({ data }) => {
                     <li key={i}>
                       <span
                         className={`bar-expand ${item.skillname.toLowerCase()}`}
-                      ></span>
+                      >
+                        {item.icon}
+                      </span>
                       <em style={{ color: "#E1D9D1" }}>{item.skillname}</em>
                     </li>
                   );

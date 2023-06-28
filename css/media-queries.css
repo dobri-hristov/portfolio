@@ -335,3 +335,24 @@
     margin-left: 14px;
   }
 }
+
+/* Portfolio Projects Section */
+@media (hover: hover) {
+  .project-mobile {
+    display: none;
+  }
+}
+@media (hover: none) {
+  .project-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .project-mobile {
+    display: block;
+  }
+  .project-desktop {
+    display: none;
+  }
+}

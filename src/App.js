@@ -3,6 +3,7 @@ import Header from "./pages/Header";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 import data from "./data";
 
@@ -13,6 +14,7 @@ const App = () => {
       <About data={data} />
       <Resume data={data} />
       <Portfolio data={data} />
+      <Contact />
       <Footer data={data} />
     </div>
   );

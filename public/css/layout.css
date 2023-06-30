@@ -242,6 +242,7 @@ ul#nav li.current a {
   width: 200px;
   height: 200px;
   border-radius: 100%;
+  box-shadow: 0px 0px 10px 1px rgba(225, 217, 209, 0.4);
 }
 #about .contact-details {
   width: 41.66667%;
@@ -744,6 +745,147 @@ ul#nav li.current a {
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
   cursor: default;
+}
+
+/* ------------------------------------------------------------------ */
+/* i. Contact
+/* ------------------------------------------------------------------ */
+
+#contact {
+  padding-top: 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#contact h4 {
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #e1d9d1;
+}
+
+#contact-form {
+  width: 50%;
+  box-shadow: 0px 0px 10px 1px rgba(225, 217, 209, 0.5);
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+.contact-form-input {
+  width: 90%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #e1d9d1;
+  padding: 10px 5px;
+  margin: 20px 0;
+  color: white;
+  font-size: 15px;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  font-size: 16px !important;
+  max-height: 250px;
+  min-height: 100px;
+}
+
+#contact-form button {
+  color: #e1d9d1;
+  width: 90%;
+  background-color: #0d7b7f;
+  font-size: 18px;
+}
+#contact-form button:hover {
+  background-color: #0f9095;
+}
+
+.btn-disable {
+  opacity: 0.5;
+}
+
+/* Toast */
+#toast {
+  min-width: 250px;
+  margin-left: -135px;
+  background-color: #0f0f0f;
+  color: #e1d9d1;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 2px;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 60px;
+  border-radius: 5px;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 3.7s;
+  animation: fadein 0.5s, fadeout 0.5s 3.7s;
+}
+
+.toast-container {
+  display: flex;
+  align-items: center;
+}
+.toast-container svg {
+  margin-right: 10px;
+}
+
+#toast.success {
+  border-bottom: 5px solid green;
+}
+
+#toast.error {
+  border-bottom: 5px solid red;
+}
+
+/* Animations to fade the toast in and out */
+@-webkit-keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 60px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 60px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    top: 60px;
+    opacity: 1;
+  }
+  to {
+    top: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    top: 60px;
+    opacity: 1;
+  }
+  to {
+    top: 0;
+    opacity: 0;
+  }
 }
 
 /* ------------------------------------------------------------------ */

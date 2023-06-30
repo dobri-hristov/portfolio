@@ -67,6 +67,13 @@
   #resume .main-col {
     padding-right: 5%;
   }
+
+  /* Contact Section
+   ------------------------------------------------------------------- */
+
+  #contact-form {
+    width: 88%;
+  }
 }
 
 /* mobile wide/smaller tablets
@@ -267,6 +274,13 @@
   .flex-control-nav {
     text-align: center;
     margin-left: -30px;
+  }
+
+  /* Contact section
+   ------------------------------------------------------------------------ */
+
+  #contact {
+    padding-top: 0;
   }
 
   /* footer

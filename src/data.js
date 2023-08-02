@@ -10,21 +10,21 @@ let data = {
   roleDescription:
     "who is passionate about creating great user experiences, have a strong understanding of usability and accessibility standards and does everything with love and passion",
   socialLinks: [
-    {
-      name: "linkedin",
-      url: "",
-      className: "fa fa-linkedin",
-    },
+    // {
+    //   name: "linkedin",
+    //   url: "",
+    //   className: "fa fa-linkedin",
+    // },
     {
       name: "github",
       url: "https://github.com/dobri-hristov",
       className: "fa fa-github",
     },
-    {
-      name: "skype",
-      url: "https://join.skype.com/invite/M7LcE4hRwNmV6",
-      className: "fa fa-skype",
-    },
+    // {
+    //   name: "skype",
+    //   url: "https://join.skype.com/invite/M7LcE4hRwNmV6",
+    //   className: "fa fa-skype",
+    // },
   ],
   aboutmeContacts: [
     {
